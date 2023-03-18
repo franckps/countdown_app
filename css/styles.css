@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/main-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.2rem;
+    padding: 5rem 8.6rem;
+    background-color: #092143;
+    opacity: .8;
+    border-radius: 3.6rem;
+    color: #FFFFFF;
+}
+
+.main-section h1 {
+    font-weight: 100;
+    font-size: 9rem;
+}
+.main-section p {
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: #A5DEFF;
+}
+
+.time-section {
+    list-style: none;
+    display: flex;
+    gap: 2.6rem;
+}
+
+.time-section .time-section-item {
+    background-color: #080F1A;
+    padding: 4.6rem 3rem;
+    border-radius: 2.2rem;
+}
+
+.time-section .time-section-item h2 {
+    font-size: 6.4rem;
+    min-width: 14.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.time-section .time-section-item span {
+    display: block;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #A5DEFF;
+    text-align: center;
+}
