@@ -12,6 +12,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blur-effect {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);
     background-image: url('../images/main-background.png');
     background-repeat: no-repeat;
     background-size: cover;
