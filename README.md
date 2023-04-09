@@ -15,7 +15,7 @@ git clone https://github.com/franckps/countdown_app.git
   
 ### Open on browser
 
-Once with the project in your computer, open the ==index.html== file on your browser and it will work! :)
+Once with the project in your computer, open the <b>index.html</b> file on your browser and it will work! :)
   
 ## Video building the project
 
