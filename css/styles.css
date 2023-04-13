@@ -7,7 +7,8 @@
 }
 
 .main-container {
-    height: 100vh;
+    position: relative;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -73,4 +74,47 @@
     font-size: 1.6rem;
     color: #A5DEFF;
     text-align: center;
+}
+
+@media screen and (width < 1090px) {
+    .main-section {
+        padding: 2rem;
+    }
+
+    .time-section .time-section-item {
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (width < 790px) {
+    * {
+        font-size: 7px;
+    }
+}
+
+@media screen and (width < 560px) {
+    .main-container {
+        padding: 1rem;
+    }
+
+    .time-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .time-section .time-section-item {
+        min-width: 33.4%;
+    }
+}
+
+@media screen and (width < 490px) {
+    .main-section h1 {
+        font-weight: 500;
+        font-size: 4rem;
+    }
+
+    .main-section p {
+        font-size: 2.8rem;
+    }
 }
